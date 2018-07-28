@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="author" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<title>宋磊/Slash - 个人网站</title>
+		<!--网页标题左侧显示-->
+		<link rel="icon" href="sl.png" type="image/x-icon">
+		<!--收藏夹显示图标-->
+		<link rel="shortcut icon" href="sl.png" type="image/x-icon">
+
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+
+		<!-- Main css -->
+		<link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css" />
+
+	</head>
+
+	<body>
+
+		<!-- PRE LOADER -->
+
+		<div class="preloader">
+			<div class="sk-spinner sk-spinner-wordpress">
+				<span class="sk-inner-circle"></span>
+			</div>
+		</div>
+
+		<!-- Navigation section  -->
+
+		<div class="navbar navbar-default navbar-static-top" role="navigation">
+			<div class="container">
+
+				<div class="navbar-header">
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+               </button>
+					<a href="index.html" class="navbar-brand"><i class="iconfont icon-sl"></i></a>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="index.html">项目经验</a>
+						</li>
+						<li>
+							<a href="about.html">个人信息</a>
+						</li>
+						<li class="active">
+							<a href="blog.html">个人博客</a>
+						</li>
+						<!--<li>
+							<a href="contact.html">联系我</a>
+						</li>-->
+					</ul>
+				</div>
+
+			</div>
+		</div>
+
+		<!-- Blog Single Post Section -->
+
+		<section id="blog-single-post">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-offset-1 col-md-10 col-sm-12">
+						<div class="blog-single-post-thumb">
+
+							<div class="section-title">
+								<h3>分页式设计VS瀑布流滚动设计</h3>
+							</div>
+
+							<div class="blog-post-des">
+								<p>前天工作中，刚好有做到信息列表的设计，应该要采用哪种设计策略，也引起一阵讨论。无论是电子商务网站、搜寻结果、图片浏览、历史纪录等等，只要是内容信息量大时，设计师总是会面对到同样的问题。 先来看看Google搜索的设计，在搜寻结果选择全部时，采用的是分页式设计（见下图）：
+								</p>
+								<div class="blog-post-image">
+									<img src="images/blog-b-1.jpeg" class="img-responsive" alt="Blog Image">
+								</div>
+								<p>在搜寻结果选择图片时，使用的是瀑布流滚动设计（见下图）：</p>
+								<div class="blog-post-image">
+									<img src="images/blog-b-2.jpeg" class="img-responsive" alt="Blog Image">
+								</div>
+								<div class="blog-post-image">
+									<img src="images/blog-b-3.jpeg" class="img-responsive" alt="Blog Image">
+								</div>
+								<p>其实分页和瀑布流有各自的特性，适合在不同的情境。 分页把数据分成一页一页，下方有页数或是指示可以点击换页，让人有停顿的时间。 瀑布流是将内容都放在同一页，当滚轮滚到页面下方时，自动加载新的内容，无需点击换页。
+								</p>
+								<h3>简单分析一下瀑布流的优缺点</h3>
+								<h3>优点</h3>
+								<p style="font-size: 20px;color: #101010;">1. 流畅的体验，可以持续浏览内容</p>
+								<p>在滚轮滚动的同时，背后也悄悄开始预载窗口下方的内容，用户可以无缝阅览，比较容易沉浸其中，不像分页，点击完下一页之后，需等待页面载入。适合运用在没有特定目的的活动上，无聊的时候，可以打发时间的随意浏览，例如Facebook News Feed。</p>
+								<p style="font-size: 20px;color: #101010;">2.瀑布流架构相对扁平，适合展示相同阶层架构的东西</p>
+								<p>图片是最好的内容物，因为图片的信息比较文字更快被人所接收，我们总是能很扫射完图片，Pinterest、花瓣就是利用瀑布流的特点，不停给予各式图片，供设计师快速找寻灵感、给予源源不绝的刺激。</p>
+								<p style="font-size: 20px;color: #101010;">3. 操作简易快速</p>
+								<p>不用过多瞄准点击的操作，只需滚动，就能有新的内容，操作效率较佳。</p>
+								<h3>缺点</h3>
+								<p style="font-size: 20px;color: #101010;">1. 难以回溯、确认数据位置</p>
+								<p>在一个超长的页面中，如果要再往回找自己之前看过的东西，会很难寻找，不知道它的位置，不像分页，可以记得内容是在第几页。</p>
+								<p style="font-size: 20px;color: #101010;">2. 找寻想要的特定信息时，较无效率</p>
+								<p>无法略过不必要的内容，直接跳页看。自己在电商网站购买物品的经验是，输完关键词，选择价格排序后，往往最前面几笔和最后面几笔的数据，基本上都是和自己想买的对象不相关(有些卖家故意会用0元或99999999元，争取最佳排序位置)，这时候可以跳页就变得重要，当然多下一些过滤，也可以帮助找到数据。</p>
+								<p style="font-size: 20px;color: #101010;">3. 占用浏览器过多的资源</p>
+								<p>单一个页面中，不停加载新的内容，容易导致浏览器负荷过高，网页效能降低。</p>
+								<p style="font-size: 20px;color: #101010;">4. 浏览器滚动条的长短及位置，无法正确表达内容长短</p>
+								<p>过去还没有瀑布流时，无论是网页还是客户端软件，滚动条长度具有暗示数据内容多少的效用，我们也会看滚动条的位置，去了解还剩下多少数据在下方未读。但瀑布流因为页面长度会随着滚动行为不停增长，滚动条的长度和位置会不停变化，失去提示作用。滚动条往往会越变越小，位置也会一直更动。</p>
+								<p style="font-size: 20px;color: #101010;">5. Footer（页脚）变得很难使用，甚至无法使用</p>
+								<p>当滚轮滚动时，页面会自动加载更多内容，把Footer再往下推，消失于窗口中。常常有这样的经验，原本想要阅读Footer的信息，结果看到一半，就被加载的信息推走，我又往下滚动，然后又再度被推走，整个无法控制。 不过为了解决上述问题，加载更多按钮是一个解决办法。当滚动到底，网页加载一定数量的内容后，便不再自动加载，必须点击加载更多按钮，才会又再一轮的载入。这可以解决无法在一定数量内，来回观看、占用过多浏览器资源、Footer无法使用等问题。</p>
+
+								<h3>分页式设计优点</h3>
+								<p style="font-size: 20px;color: #101010;">1. 双向互动，让使用者有时间思索、决策</p>
+								<p>阅览完一页后，因为还要点击下一页的关系，有机会停顿一下，使用者有个喘息的机会，去思考是否还要继续看下一页。不像瀑布流，一直出现新的内容，不停被喂养信息。</p>
+								<p style="font-size: 20px;color: #101010;">2. 给予使用者较佳的控制感</p>
+								<p>在找寻时，分页式设计会让使用者知道已经找了几页。有研究指出到达页面底端时，有种任务达到一个段落的感觉，会让使用者有种愉悦的成就感和控制感。</p>
+								<p style="font-size: 20px;color: #101010;">3. 快速查找过往信息</p>
+								<p>相信大家都有过找寻一些历史消息的经验，可能找了几页数据，我们就可能10页10页这样跳，可能10页就是几天的讯息，可能可以利用页数，大概判断信息会在第几页哪个位置。但是瀑布流就无法做到这件事了，如果要找比较远的数据，就必须一直滚动到底再等待加载，中间加载了许多我们不需要的信息，就为了看比较久远的数据，强迫我们必须再次经历那个过程。另外，有时候我们查找一些数据，需要再跳回去看的时候，我们大概会依稀记得之前看到的数据，大概会是在第几页，除了帮助记忆外，可以让我们可以更快跳到想要的内容上。</p>
+
+								<h3>结论</h3>
+								<p>瀑布流和分页设计有各自的优缺点，运用在适当的情境时，可以将优点放大，缺点甚至会转为优点。</p>
+								<p>分页是比较常见的设计，因为需要点击才有下页内容，让人有停顿的时间，适合用在目标导向、一些需要思考决策、有目的性的活动，例如搜寻商品，或是找寻数据。</p>
+								<p>瀑布流适合快速且随意浏览的情境，因为结构较为扁平，适合放同性质的内容。由使用者产生的内容（例如：Facebook、Twitter）以及图片内容（如：Pinterest、Dribbble、花瓣）都相当适合瀑布流，而面对较差的控制感、浏览器负荷高等缺点，可以使用加载更多按钮，作为折衷的办法。</p>
+								<p style="font-size: 20px;color: #101010;">历史纪录应该用瀑布流还是分页？</p>
+								<p>或许一开始数据量不大的时候，瀑布流是好用的，可是当数据量慢慢累积，需要好几页的内容时，为了找寻特定目标的需要，分页会是比较好的选择。</p>
+								<p style="font-size: 20px;color: #101010;">电商网站究竟较适合分页还是瀑布流呢？</p>
+								<p>前期想要营造逛街购物的氛围，让使用者随意看看，激起购物欲望，可以使用瀑布流，但是需要有收藏按钮，用户在浏览过程中可以收藏自己喜欢的商品，避免最后找不到自己心动的商品。 后期需要让人能快速找到所需物品，使用者知道自己要买什么，买了就走，功能性取向的，就使用分页器较为合适。</p>
+								<p>分页会拖慢浏览速度，也会让用户懒得点击去看其他页面的产品，降低产品曝光度。 不过另外一方面，使用分页，会让使用者花比较多的时间在第一页。这时候分页的缺点就变成优点了。使用分页，多数人都停在第一页，这时候，第一页就可以放主打商品。</p>
+
+								<h3>使用分页设计时，单页的内容数量</h3>
+								<p>无论是分页设计或是瀑布流带加载更多按钮都会面对一个问题，分页设计的一页或瀑布流出现按钮的长度应该要多长，要放多少东西，才是适宜的？</p>
+								<p>电商网站如果运用分页器设计，如果是从产品类别点进去看的商品，可以列出50-100项产品，再出现加载更多按钮，但如果是搜索结果，则建议25–75项，在手机上，则是因为屏幕的限制，建议15–30项商品即可。</p>
+								<p>同样是电商网站，简单看了一下市面上的网络购物平台，运用分页设计的，一页也是50–100个物件间。 Taobao：每一页有85个商品 eBay：默认50个商品，用户可以自由选择每一页展示数量。</p>
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<h2></h2>
+				<div class="col-md-12 col-sm-12 text-center">
+					<a href="blog.html"><i class="fa fa-long-arrow-right"></i> 其他博客</a>
+				</div>
+		</section>
+		<!-- Footer Section -->
+
+		<footer>
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-1 col-sm-3">
+						<a href="index.html"><i class="iconfont icon-sl"></i></a>
+					</div>
+
+					<div class="col-md-6 col-sm-4">
+						<p>追求完美，包容残缺<br>美的东西，什么时候出现都不会太迟！</p>
+					</div>
+
+					<div class="col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-3 contact">
+						<p><i class="iconfont icon-youxiang"></i>
+							<a href="mailto:1007506430@qq.com">&nbsp;&nbsp;1007506430@qq.com</a>
+						</p>
+						<p><i class="iconfont icon-shouji"></i>&nbsp;&nbsp;13294135413</p>
+					</div>
+
+					<div class="clearfix col-md-12 col-sm-12">
+						<hr>
+					</div>
+
+					<div class="col-md-6 col-sm-6">
+						<div class="footer-copyright">
+							<p>© 2018 Slash | 版权所有</p>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-6">
+						<ul class="social-icon">
+							<li>
+								<a href="http://wpa.qq.com/msgrd?v=3&uin=1007506430&site=qq&menu=yes" target="_blank" class="iconfont icon-QQ"></a>
+							</li>
+							<li>
+								<a href="wechat.html" target="view_window" class="iconfont icon-weixin"></a>
+							</li>
+							<li>
+								<a href="https://dribbble.com/Slash" target="view_window" class="iconfont icon-Dribbble"></a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</footer>
+
+		<!-- SCRIPTS -->
+
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/custom.js"></script>
+
+	</body>
+
+</html>
